@@ -306,7 +306,7 @@ func floorcgf(x: CGFloat) -> CGFloat {
         releaseAllUnderlyingPhotos(preserveCurrent: false)
         SDImageCache.shared().clearMemory() // clear memory
     }
-
+ 
     private func releaseAllUnderlyingPhotos(preserveCurrent: Bool) {
         // Create a copy in case this array is modified while we are looping through
         // Release photos
